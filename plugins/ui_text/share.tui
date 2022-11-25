@@ -9,5 +9,5 @@
 @endsection
 
 @markup
-@button text='🚫Share  Url🚫' url='@>>share_url'
+@button text='🖇Share  Url🖇' url='@>>share_url'
 @endmarkup
