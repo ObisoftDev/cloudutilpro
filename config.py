@@ -4,11 +4,12 @@ BOT_TOKEN = '5729824730:AAEByN_q5jonFiWzFaH4pyt0_F9ootPdx1I'
 TG_API_ID = '18641760'
 TG_API_HASH = 'b7b026ce9d1d36400c02dc21d8df53a3'
 TG_ADMIN = 'obisoftt'
-HOST_SERVER = 'https://educa.uho.edu.cu/'
+HOST_SERVER = os.environ.get('host_server','https://host-server.example.com/')
 
 #Web Flask
 FLASK_HOST = '0.0.0.0'
-ENV_PORT = 443
+FLASK_PORT = 443
+ENV_PORT = os.environ.get('PORT',None)
 if ENV_PORT:
    FLASK_PORT = ENV_PORT
 FLASK_PORT = 443
