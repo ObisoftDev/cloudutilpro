@@ -1,0 +1,13 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section shared
+✅@>>share_filename Compartido
+@endsection
+
+@section error
+🛑@>>share_filename Error
+@endsection
+
+@markup
+@button text='🚫Share  Url🚫' url='@>>share_url'
+@endmarkup

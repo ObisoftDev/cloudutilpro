@@ -1,0 +1,38 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section mkdir
+Se a creado el directorio @>>mkdir_path ✅
+
+##jump to list_files section
+@jmpto_sect list_files
+@endsection
+
+@section mkdir_exist
+Ya existe @>>mkdir_path ❎
+
+##jump to list_files section
+@jmpto_sect list_files
+@endsection
+
+@section mkdir_error
+Erro de ruta @>>mkdir_path ❌
+
+##jump to list_files section
+@jmpto_sect list_files
+@endsection
+
+@section dir_invalid
+Ruta @>>cd_set No Valido
+
+##jump to list_files section
+@jmpto_sect list_files
+@endsection
+
+@section list_files
+Path: @>>cd_set (@>>len_files)
+@for fi in files
+@>>for_index - @>>fi
+@onejump
+@onejump
+@endfor
+@endsection

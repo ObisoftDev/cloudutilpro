@@ -1,0 +1,20 @@
+##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section __base
+@define html
+
+<a href="https://github.com/ObisoftDev">CLUtilPro Bot</a>
+
+HOLA @@>>username 👋 Bienvenido
+
+CLUtilPro es un bot avanzado con varias funcionalidades como descarga|subida|creacion de archivos, tambien tiene un manejo de archivos a lo similar Linux o Termux. Una lista de plugins q se pueden usar para soporte de acciones nuevas.
+
+El desarrollo de este bot es basado en la libreria <a href="https://github.com/ObisoftDev/pyobigram">pyobigram</a> y <a href="https://github.com/ObisoftDev/pyobidl">pyobidl</a> del mismo desarrollador de este bot
+
+Puede hacer preguntas o aclarar dudas contacte al creador, en el boton de abajo se encuentra su link
+@endsection
+
+@markup
+@button text='🪬ObisoftDev🪬' url='https://t.me/obisoftt'
+@button text='🪤ObisoftDev  Github🪤' url='https://github.com/ObisoftDev'
+@endmarkup

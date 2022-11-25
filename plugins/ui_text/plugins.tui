@@ -1,0 +1,15 @@
+﻿##ui_template es un mini lenguaje de interface de texto para telegram
+
+@section __base
+@define html
+
+〽️Plugins Activos (@>>len)〽️
+
+@for plug in plugins
+@>>plug.title : @>>plug.desc
+
+@endfor
+
+@markup
+@button text='〽️Mas  Plugins〽️' url='https://github.com/ObisoftDev/plugins/clutilpro'
+@endmarkup
