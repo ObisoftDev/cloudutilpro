@@ -28,7 +28,14 @@ def on_handle(update,bot:ObigramClient,user:User=None,args={}):
     if not os.path.isdir(user_root_path):
        os.mkdir(user_root_path)
 
+    
     user_root_path = f'{user_root_path}{user.config.cd}'
+
+    if not os.path.isdir(user_root_path):
+       user.config.cd = ''
+
+    user_root_path = f'{user_root_path}{user.config.cd}'
+
     args['files'] = os.listdir(user_root_path)
     args['len_files'] = len(args['files'])
     args['cd_set'] = f'{user.config.cd}'
