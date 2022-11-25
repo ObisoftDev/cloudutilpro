@@ -3,7 +3,5 @@ requests[socks]
 bs4
 https://github.com/ObisoftDev/pyobidl/archive/master.zip
 https://github.com/ObisoftDev/pyobigram/archive/master.zip
-mysqlclient
-mysql-connector-python
 pymysql
 flask
