@@ -1,3 +1,4 @@
+import os
 # Bot
 BOT_TOKEN = '5729824730:AAEByN_q5jonFiWzFaH4pyt0_F9ootPdx1I'
 TG_API_ID = '18641760'
@@ -7,6 +8,9 @@ HOST_SERVER = 'https://educa.uho.edu.cu/'
 
 #Web Flask
 FLASK_HOST = '0.0.0.0'
+ENV_PORT = 443
+if ENV_PORT:
+   FLASK_PORT = ENV_PORT
 FLASK_PORT = 443
 FLASK_DEBUG = True
 
