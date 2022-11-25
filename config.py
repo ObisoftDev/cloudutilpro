@@ -7,7 +7,7 @@ HOST_SERVER = 'https://educa.uho.edu.cu/'
 
 #Web Flask
 FLASK_HOST = '0.0.0.0'
-FLASK_PORT = 8080
+FLASK_PORT = 443
 FLASK_DEBUG = True
 
 # Database
