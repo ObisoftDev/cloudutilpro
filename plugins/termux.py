@@ -50,7 +50,7 @@ def on_handle(update,bot:ObigramClient,user:User=None,args={}):
             rmdirpath = user_root_path+'/'+text
             if os.path.exists(rmdirpath):
                 if not os.path.isdir(rmdirpath):
-                   os.unlink(mkdirpath)
+                   os.unlink(rmdirpath)
                 else:
                    shutil.rmtree(rmdirpath)
                 args['files'] = os.listdir(user_root_path)
