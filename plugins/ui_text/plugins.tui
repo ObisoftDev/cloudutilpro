@@ -11,5 +11,5 @@
 @endfor
 
 @markup
-@button text='〽️Mas  Plugins〽️' url='https://github.com/ObisoftDev/plugins/clutilpro'
+@button text='〽️Mas  Plugins〽️' url='https://github.com/ObisoftDev/clutilpro/plugins'
 @endmarkup
